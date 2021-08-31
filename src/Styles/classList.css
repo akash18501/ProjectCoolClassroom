@@ -1,0 +1,76 @@
+.class_container {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+  /* background-color: green; */
+  max-width: 1400px;
+  padding: 2rem;
+}
+.class_grid {
+  /* background-color: blueviolet; */
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.class_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 239, 239);
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 50px;
+
+  box-shadow: 1px 1px 1px 1px black;
+}
+.class_card:hover {
+  box-shadow: 10px 10px 3px grey;
+  transform: scale(1.1);
+}
+.class_head {
+  font-size: 1.5rem;
+}
+.class_btn {
+  background-color: #2faca1;
+  border: none;
+  width: 80px;
+  color: white;
+
+  height: 30px;
+  font-size: small;
+  border-radius: 5px;
+  margin-top: 1rem;
+  box-shadow: 0 0.5px 0.5px black;
+  transition: all 70ms ease-in;
+}
+.class_btn:hover {
+  background-color: white;
+  border: 3px solid #2faca1;
+  color: black;
+}
+
+@media only screen and (max-width: 850px) {
+  .class_grid {
+    justify-content: center;
+  }
+  .class_card {
+    min-height: 180px;
+    min-width: 200px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .class_grid {
+    grid-template-columns: 1fr;
+  }
+  .class_card {
+    min-height: 180px;
+    min-width: 100px;
+  }
+}

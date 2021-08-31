@@ -1,0 +1,16 @@
+td {
+  text-align: center;
+  vertical-align: center;
+  font-size: 1.1rem;
+}
+td.subject_name {
+  font-weight: bold;
+}
+td.description {
+}
+
+td.date {
+  font-weight: bold;
+}
+.meet_link {
+}

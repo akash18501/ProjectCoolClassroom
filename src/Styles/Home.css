@@ -1,0 +1,35 @@
+.home_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* justify-content: center; */
+  height: 100vh;
+}
+
+.home_container_bg {
+  background-color: rgb(247, 241, 241);
+}
+
+.home_main {
+  height: 80vh;
+}
+
+.left_home {
+  width: 40%;
+}
+
+.right_home {
+  width: 60%;
+}
+.svgimg {
+  height: 100%;
+  margin-top: 10px;
+}
+.buttonsvg {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  color: black;
+  font-size: 1.3rem;
+  border: 5px solid #4682b4;
+}

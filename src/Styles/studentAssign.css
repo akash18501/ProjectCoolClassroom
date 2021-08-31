@@ -1,0 +1,85 @@
+.assign_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 2rem;
+  flex-direction: column;
+  /* background-color: rgb(224, 190, 255); */
+}
+.assign_card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  background-color: rgb(252, 247, 247);
+  padding: 1rem;
+  max-height: 240px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px black;
+}
+.assign_head {
+  width: 40%;
+  height: 20%;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.assign_info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  justify-content: space-between;
+}
+.assign_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: rgb(245, 165, 245); */
+  width: 50%;
+  height: 100%;
+  margin-right: 1rem;
+  flex: 0.7;
+  /* padding: 1rem 0; */
+  /* max-width: 400px; */
+}
+.assign_form {
+  /* background-color: violet; */
+  /* width: 200px; */
+  flex: 0.3;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.assign_btn {
+  display: inline-block;
+  width: 100px;
+  background-color: #008ecc;
+  color: white;
+  box-shadow: 0px 1px 1px black;
+}
+.assign_card_teacher:hover {
+  /* box-shadow: 1px 5px 5px 1px grey; */
+  cursor: pointer;
+  background-color: rgb(210, 214, 214);
+  /* border: 0.5px solid rgb(61, 105, 107); */
+}
+.assign_drill_link {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+.assign_submitted {
+  flex: 0.3;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}

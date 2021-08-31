@@ -1,0 +1,38 @@
+.submissions_table {
+  box-shadow: 0px 2px 2px black;
+  border-radius: 5px;
+}
+.thead_row {
+  background-color: #036e9c;
+}
+
+.marks_input {
+  margin-left: 10px;
+  border-radius: 5px;
+  width: 70px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: rgb(243, 243, 243);
+  transition: all 100ms;
+}
+.marks_input:focus {
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.give_marks {
+  background-color: rgb(48, 106, 124);
+  margin: 10px;
+  color: white;
+}
+.give_marks:hover {
+  color: white;
+  background-color: rgb(73, 159, 185);
+}
+.assign_submission {
+}
+
+.student_name {
+  text-transform: capitalize;
+}
